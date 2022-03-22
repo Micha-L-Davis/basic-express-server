@@ -1,0 +1,28 @@
+{
+  "name": "basic-express-server",
+  "version": "1.0.0",
+  "description": "A demonstration of an Express server with a single route and error handling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Micha-L-Davis/basic-express-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Micha-L-Davis/basic-express-server/issues"
+  },
+  "homepage": "https://github.com/Micha-L-Davis/basic-express-server#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}
